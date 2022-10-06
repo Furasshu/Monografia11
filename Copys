@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Linea de tiempo<hr></h1>
+    <table border="5" cellspacing="0" align="center">
+        <!--<caption>Timetable</caption>-->
+        <tr>
+            <td align="center" height="50" 
+                width="120">
+                <b>Día / Bloque</b>
+            </td>
+            <td align="center" height="50" 
+                width="120">
+                <b>6:30 - 7:15</b>
+            </td>
+            <td align="center" height="50" 
+                width="120">
+                <b>7:15 - 8:00</b>
+            </td>
+            <td align="center" height="50" 
+                width="120">
+                <b>8:00 - 8:45</b>
+            </td>
+            <td align="center" height="50" 
+                width="120">
+                <b>8:45 - 9:30</b>
+            </td>
+            <td align="center" height="50" 
+                width="120">
+                <b>9:30 - 10:15</b>
+            </td>
+            <td align="center" height="50" 
+                width="120">
+                <b>10:15 - 11:00</b>
+            </td>
+            <td align="center" height="50" 
+                width="120">
+                <b>11:00 - 11:45</b>
+            </td>
+            <td align="center" height="50" 
+                width="120">
+                <b>11:45 - 12:30</b>
+            </td>
+            <td align="center" height="50" 
+                width="120">
+                <b>12:30 - 1:15</b>
+            </td>
+            <td align="center" height="50" 
+                width="120">
+                <b>1:15 - 2:00</b>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Lunes</b></td>
+            <td colspan="2" align="center" 
+                height="50">Inglés 
+            </td>
+            <td colspan="2" align="center" 
+                height="50">Educación física
+            </td>
+            <td rowspan="6" align="center" height="50">
+                <h2>D<br>E<br>S<br>C<br>A<br>N<br>S<br>O</h2>
+            </td>
+            <td colspan="2" align="center" 
+                height="50">Tecnología
+            </td>
+            <td align="center" height="50">Religion</td>
+            <td colspan="2" align="center" 
+                height="50">Sociales
+            </td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Martes</b>
+            </td>
+            <td align="center" height="50">Dirección de curso</td>
+            <td align="center" height="50">Ética</td>
+            <td colspan="2" align="center" 
+                height="50">Lenguaje
+            </td>
+            <td colspan="2" align="center" 
+                height="50">Matemáticas
+            </td>
+            <td colspan="2" align="center" 
+                height="50">Química
+            </td>
+            <td align="center" height="50">Ciencias políticas</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Miércoles</b>
+            </td>
+            <td colspan="2" align="center" 
+                height="50">Matemáticas
+            </td>
+            <td colspan="2" align="center" 
+                height="50">Física
+            </td>
+            <td colspan="2" align="center" 
+                height="50">Filosofía
+            </td>
+            <td align="center" height="50">Tecnología</td>
+            <td colspan="2" align="center" 
+                height="50">Música / Danzas
+            </td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Jueves</b>
+            </td>
+            <td colspan="2" align="center" 
+                height="50">Lenguaje
+            </td>
+            <td colspan="2" align="center" 
+                height="50">Inglés
+            </td>
+            <td colspan="2" align="center" 
+                height="50">Física
+            </td>
+            <td align="center" height="50">Ciencias políticas</td>
+            <td colspan="2" align="center" 
+                height="50">Lectores competentes
+            </td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Viernes</b>
+            </td>
+            <td colspan="2" align="center" 
+                height="50">Química
+            </td>
+            <td colspan="2" align="center" 
+                height="50">Sociales
+            </td>
+            <td align="center" height="50">Biología</td>
+            <td align="center" height="50">Ética</td>
+            <td colspan="2" align="center" 
+                height="50">Matemáticas
+            </td>
+            <td align="center" height="50">Inglés </td>
+        </tr>
+    </table>
+    <br>
+</body>
+</html>
