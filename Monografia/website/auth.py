@@ -18,13 +18,13 @@ def login():
         user = User.query.filter_by(email=email).first()
         if user:
             if check_password_hash(user.password, password):
-                flash('Logged in successfully!', category='success')
+                flash('Sesión iniciada exitosamente!', category='success')
                 login_user(user, remember=True)
                 return redirect(url_for('views.home'))
             else:
-                flash('Incorrect password, try again.', category='error')
+                flash('Contraseña incorrecta, porfavor intente de nuevo.', category='error')
         else:
-            flash('Email does not exist.', category='error')
+            flash('El correo no existe.', category='error')
 
     return render_template("login.html", user=current_user)
 
@@ -47,21 +47,21 @@ def sign_up():
 
         user = User.query.filter_by(email=email).first()
         if user:
-            flash('Email already exists.', category='error')
+            flash('El correo ya está en uso.', category='error')
         elif len(email) < 4:
-            flash('Email must be greater than 3 characters.', category='error')
+            flash('El correo debe tener más de 3 caracteres.', category='error')
         elif len(first_name) < 2:
-            flash('First name must be greater than 1 character.', category='error')
+            flash('Su nombre debe tener mas de un caracter.', category='error')
         elif password1 != password2:
-            flash('Passwords don\'t match.', category='error')
+            flash('Las contraseñas no coinciden.', category='error')
         elif len(password1) < 7:
-            flash('Password must be at least 7 characters.', category='error')
+            flash('La contraseña debe tener mas de 7 caracteres.', category='error')
         else:
             new_user = User(email=email, first_name=first_name, password=generate_password_hash(password1, method='sha256'))
             db.session.add(new_user)
             db.session.commit()
             login_user(new_user, remember=True)
-            flash('Account created!', category='success')
+            flash('Cuenta creada!', category='success')
             return redirect(url_for('views.home'))
 
     return render_template("sign_up.html", user=current_user)
